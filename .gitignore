@@ -1,0 +1,7 @@
+# Node packages
+node_modules
+
+# Nix
+/.direnv/
+
+.env.local
