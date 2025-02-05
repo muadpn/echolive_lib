@@ -1,5 +1,11 @@
 # echolive-client
 
+## 0.0.9
+
+### Patch Changes
+
+- ac2fa05: marked react as external in vite.config
+
 ## 0.0.8
 
 ### Patch Changes
