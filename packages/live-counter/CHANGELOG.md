@@ -1,5 +1,12 @@
 # echolive-client
 
+## 0.0.7
+
+### Patch Changes
+
+- e126d2a: fixed css build issue
+- ee4be75: added supported for tailwind
+
 ## 0.0.6
 
 ### Patch Changes
