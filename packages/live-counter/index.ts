@@ -1,3 +1,4 @@
+import './src/index.css';
 export { Hello } from "@/ui/hello";
 export {
   VisitorTrackerProvider,
