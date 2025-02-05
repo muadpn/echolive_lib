@@ -18,8 +18,8 @@ export default defineConfig({
   build: {
     target: "esnext",
     minify: true,
+    
     cssCodeSplit: true,
-
     lib: {
       name: "echolive",
       fileName: (format) => `index.${format}.js`,
@@ -33,7 +33,6 @@ export default defineConfig({
         compact: true,
       },
     },
-
     sourcemap: true,
     emptyOutDir: true,
   },

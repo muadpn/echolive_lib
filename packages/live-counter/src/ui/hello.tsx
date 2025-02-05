@@ -1,5 +1,5 @@
 import { VisitorTrackerProvider } from "@/provider/live-tracker";
-import Demo from "./demo";
+import Visitors from "./Visitors";
 
 export function Hello({
   domain,
@@ -14,8 +14,7 @@ export function Hello({
       domain={domain}
       websocketUrl={websocketUrl}
     >
-      <div className="text-2xl font-medium">This IS UI HELLO</div>
-      <Demo />
+      <Visitors />
     </VisitorTrackerProvider>
   );
 }
