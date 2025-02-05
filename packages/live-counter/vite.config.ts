@@ -18,7 +18,7 @@ export default defineConfig({
   build: {
     target: "esnext",
     minify: true,
-    
+
     cssCodeSplit: true,
     lib: {
       name: "echolive",
@@ -26,8 +26,7 @@ export default defineConfig({
       entry: path.resolve(__dirname, "index.ts"),
     },
     rollupOptions: {
-      external: [],
-
+      external: ["react", "react-dom"],
       output: {
         exports: "auto",
         compact: true,
