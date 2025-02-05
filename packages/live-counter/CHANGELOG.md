@@ -1,5 +1,11 @@
 # echolive-client
 
+## 0.0.8
+
+### Patch Changes
+
+- 6444784: checking tailwind config
+
 ## 0.0.7
 
 ### Patch Changes
