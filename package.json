@@ -1,6 +1,8 @@
 {
   "scripts": {
     "changeset": "changeset",
+    "dev:counter": "pnpm -F echolive-client dev storybook" ,
+    "dev:storybook": "pnpm -F echolive-client storybook" ,
     "test": "pnpm run --if-present --recursive test",
     "build": "pnpm run --if-present --recursive build",
     "release": "pnpm run build && changeset publish"
