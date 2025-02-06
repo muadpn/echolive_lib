@@ -1,5 +1,11 @@
 # echolive-client
 
+## 0.0.10
+
+### Patch Changes
+
+- b59a9f0: removed jsx runtime and externalized react
+
 ## 0.0.9
 
 ### Patch Changes
