@@ -1,12 +1,13 @@
 import { defineConfig } from "vite";
 
-// import react from "@vitejs/plugin-react";
+import react from "@vitejs/plugin-react";
 import path from "path";
 import dts from "vite-plugin-dts";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [
+    react(),
     tailwindcss(),
     dts({
       rollupTypes: true,
@@ -18,7 +19,6 @@ export default defineConfig({
   build: {
     target: "esnext",
     minify: true,
-
     cssCodeSplit: true,
     lib: {
       name: "echolive",
