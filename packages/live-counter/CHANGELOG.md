@@ -1,5 +1,11 @@
 # echolive-client
 
+## 0.0.13
+
+### Patch Changes
+
+- 1d13e97: added new component
+
 ## 0.0.12
 
 ### Patch Changes
