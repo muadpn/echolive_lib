@@ -1,5 +1,11 @@
 # echolive-client
 
+## 0.0.11
+
+### Patch Changes
+
+- 8bbd79e: Removed storybook and added react plugin
+
 ## 0.0.10
 
 ### Patch Changes
