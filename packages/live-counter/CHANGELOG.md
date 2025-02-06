@@ -1,5 +1,11 @@
 # echolive-client
 
+## 0.0.12
+
+### Patch Changes
+
+- bf6cbe0: added react as peer dependecy
+
 ## 0.0.11
 
 ### Patch Changes
