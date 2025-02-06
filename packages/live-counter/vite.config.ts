@@ -26,10 +26,15 @@ export default defineConfig({
       entry: path.resolve(__dirname, "index.ts"),
     },
     rollupOptions: {
-      external: ["react", "react-dom"],
+      external: ["react", "react-dom", "react/jsx-runtime"],
       output: {
         exports: "auto",
         compact: true,
+        globals: {
+          "react-dom": "ReactDom",
+          react: "React",
+          "react/jsx-runtime": "ReactJsxRuntime",
+        },
       },
     },
     sourcemap: true,
