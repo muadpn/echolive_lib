@@ -1,7 +1,7 @@
 {
   "name": "echolive-client",
   "private": false,
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "View your website user count realtime",
   "type": "module",
   "main": "./dist/index.umd.js",
